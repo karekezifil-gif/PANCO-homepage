@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PANCO KIDSWEAR</title>
+  <style>
+    :root {
+      --main-purple: #7B3FC8;
+      --light-bg: #f9f7fc;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--light-bg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .container {
+      text-align: center;
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      max-width: 700px;
+      width: 90%;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      font-size: 2rem;
+      color: var(--main-purple);
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .pdf-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .pdf-item img {
+      width: 150px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .pdf-item img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    }
+
+    .pdf-item p {
+      margin-top: 8px;
+      font-size: 0.95rem;
+      color: #333;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 500px) {
+      .pdf-item img {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo pdf_page-0001.jpg" alt="PANCO KIDSWARE Logo" class="logo">
+
+    <h1>WELCOME TO PANCO KIDSWEAR</h1>
+
+    <div class="links">
+      <div class="pdf-item">
+        <a href="https://drive.google.com/file/d/FILE_ID_1/view?usp=sharing" target="_blank">
+          <img src="1.webp" alt="PDF 1 Preview">
+        </a>
+        <p>PDF 1</p>
+      </div>
+
+      <div class="pdf-item">
+        <a href="https://drive.google.com/file/d/FILE_ID_2/view?usp=sharing" target="_blank">
+          <img src="2.webp" alt="PDF 2 Preview">
+        </a>
+        <p>PDF 2</p>
+      </div>
+
+      <div class="pdf-item">
+        <a href="https://drive.google.com/file/d/FILE_ID_3/view?usp=sharing" target="_blank">
+          <img src="3.webp" alt="PDF 3 Preview">
+        </a>
+        <p>PDF 3</p>
+      </div>
+    </div>
+
+    <footer>Enjoy Your Tour!</footer>
+  </div>
+</body>
+</html>
